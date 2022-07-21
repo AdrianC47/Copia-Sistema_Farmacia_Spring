@@ -15,7 +15,7 @@
     <description>Sistema de Farmacias Servicios</description>
     <properties>
         <java.version>15</java.version>
-        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+        <maven-jar-plugin.version>3.8.6</maven-jar-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -53,6 +53,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
             </plugin>
         </plugins>
     </build>
