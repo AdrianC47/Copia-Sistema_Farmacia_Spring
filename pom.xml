@@ -14,7 +14,7 @@
     <name>Sistema_Farmacia_S</name>
     <description>Sistema de Farmacias Servicios</description>
     <properties>
-        <java.version>15</java.version>
+        <java.version>11</java.version>
         <maven-jar-plugin.version>3.8.6</maven-jar-plugin.version>
     </properties>
     <dependencies>
