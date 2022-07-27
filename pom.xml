@@ -62,6 +62,7 @@
          	<version>2.19.1</version>
             </plugin>
         </plugins>
+        <finalName>Sistema_Farmacia_S</finalName>
     </build>
 
 </project>
