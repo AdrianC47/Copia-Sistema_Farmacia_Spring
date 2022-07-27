@@ -10,7 +10,7 @@
     </parent>
 <!--    <groupId>ups.edu.ec</groupId>-->
     <artifactId>Sistema_Farmacia_S</artifactId>
-<!--    <version>0.0.1-SNAPSHOT</version>-->
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 <!--    <name>Sistema_Farmacia_S</name>-->
 <!--    <description>Sistema de Farmacias Servicios</description>-->
