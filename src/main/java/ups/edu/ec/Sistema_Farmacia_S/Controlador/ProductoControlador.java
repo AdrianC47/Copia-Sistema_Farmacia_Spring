@@ -38,6 +38,11 @@ public class ProductoControlador {
         return new ResponseEntity<List<Producto>>(listaProducto, HttpStatus.OK);
     }
 
+    @GetMapping("/hola") //obtener el listado de Pedidos
+    public ResponseEntity<String> hola() {
+
+        return new ResponseEntity<String>("hola mundo", HttpStatus.OK);
+    }
     @GetMapping("producto/categoria/{nombreCategoria}")
     @CrossOrigin(origins = "http://localhost:4200")
     public ResponseEntity<List<ProductoSucursal>> getProductoByCategoria(@PathVariable String nombreCategoria, HttpSession httpSession) {
